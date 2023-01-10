@@ -9,6 +9,18 @@ function App() {
         <h1>This is a react app</h1>
         <Logo />
         <Weather />
+        <p>
+          {" "}
+          <a
+            href="https://github.com/denashams/my-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Open-source code
+          </a>
+          , by Dena Shams{" "}
+        </p>
       </header>
     </div>
   );
