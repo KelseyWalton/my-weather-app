@@ -37,6 +37,7 @@ export default function Weather() {
       <input
         type="search"
         placeholder="Enter a city"
+        className="search-box"
         onChange={updateCity}
       ></input>
       <input type="submit" className="search-button" value="search"></input>
